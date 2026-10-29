@@ -245,7 +245,11 @@ form button:hover {
  margin: 0;
 }
 
-.todo-created-at {
+.todo-timestamps {
+ display: flex;
+ flex-wrap: wrap;
+ column-gap: 0.5rem;
+ row-gap: 0.25rem;
  font-size: 0.85rem;
  color: var(--c-text-muted);
  margin-top: 0.5rem;
